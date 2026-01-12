@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BABE FPS | Optimización Profesional de PC</title>
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --card: #14141c;
+      --primary: #ffffff;
+      --accent: #9b9b9b;
+      --border: #2a2a35;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--primary);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      font-size: 42px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      color: var(--accent);
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .title {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: var(--accent);
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 30px;
+      border-radius: 14px;
+      transition: transform .2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .card span {
+      color: var(--accent);
+      font-size: 14px;
+    }
+
+    ul {
+      margin-top: 20px;
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 18px;
+      position: relative;
+      color: #ddd;
+    }
+
+    ul li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #fff;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      border-radius: 30px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    footer {
+      padding: 40px 20px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+      color: var(--accent);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>BABE FPS</h1>
+  <p>Optimización real de PC para gaming competitivo</p>
+</header>
+
+<section>
+  <h2 class="title">Llevá tu PC al máximo rendimiento</h2>
+  <p class="subtitle">
+    En BABE FPS optimizamos tu computadora de forma personalizada para lograr más FPS,
+    menos input lag y una experiencia mucho más fluida.
+  </p>
+</section>
+
+<section>
+  <h2 class="title">Planes de Optimización</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>ECONOMIC</h3>
+      <span>Optimización básica</span>
+      <ul>
+        <li>Optimización ligera de Windows</li>
+        <li>Limpieza de archivos basura</li>
+        <li>Eliminación de procesos innecesarios</li>
+        <li>Mejora general del rendimiento</li>
+        <li>Ajustes básicos para gaming</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>DIAMOND</h3>
+      <span>Optimización completa</span>
+      <ul>
+        <li>Optimización profunda del sistema</li>
+        <li>Mejora notable de FPS y estabilidad</li>
+        <li>Configuración personalizada para gaming</li>
+        <li>Eliminación de servicios innecesarios</li>
+        <li>Reducción de input lag</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>ADVANZED</h3>
+      <span>Optimización profesional</span>
+      <ul>
+        <li>Optimización total del sistema operativo</li>
+        <li>Tweaks avanzados de CPU, GPU y red</li>
+        <li>Máxima reducción de latencia</li>
+        <li>Configuración para gaming competitivo y streaming</li>
+        <li>Ajustes extremos de rendimiento</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta">
+  <h2 class="title">¿Listo para darle un plus a tu PC?</h2>
+  <p class="subtitle">Contactame y optimizamos tu equipo de forma segura y profesional.</p>
+  <a href="#" class="btn">Contactar</a>
+</section>
+
+<footer>
+  © 2026 BABE FPS · Optimización de PC
+</footer>
+
+</body>
+</html>
